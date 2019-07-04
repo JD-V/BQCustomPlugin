@@ -5,6 +5,6 @@ https://stackoverflow.com/questions/55300785/google-cloud-composer-bigquery-oper
 Keep this BQCustomPlugin folder as it is in your plugins folder.
 jsut change import statement in your dag to this,
 
- from BQCustomPlugin.operators.custom_gcs_to_bq import GoogleCloudStorageToBigQueryOperator
+ ```from BQCustomPlugin.operators.custom_gcs_to_bq import GoogleCloudStorageToBigQueryOperator```
  
  
